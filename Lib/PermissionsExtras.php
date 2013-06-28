@@ -135,6 +135,8 @@ class PermissionsExtras extends Object {
 			}
 			unset($this->Group);
 		}
+		$this->out(__('<success>Permissions Reset Complete</success>'));
+		return true;
 	}
 
 	protected function _getGroupId($groupName) {

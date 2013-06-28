@@ -1,0 +1,11 @@
+# Permissions Extras Plugin
+
+I like Mark Story's Acl Extras. 
+
+I want to make it convenient to reset the acos_aros table in a single command.
+
+So I made two decisions:
+
+a) I observed RBAC - role-based authorization control. Also known as Group only ACL in cakephp book
+
+b) I created this plugin which has that single command.
